@@ -1,8 +1,19 @@
 .app {
-  /* vrem doar ca app sa ocupe toata pagina */
   min-height: 100vh;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+h1 {
+  text-align: center;
 }
 
-.app h1 {
+h2 {
   margin-top: 0;
+  color: #999;
+  border-bottom: 1px solid #999;
+  font-size: 28px;
+}
+
+button {
+  margin-left: 20px;
 }
