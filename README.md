@@ -1,11 +1,9 @@
-## JavaScript Advanced - Curs 3
+# practice 3
 
-Pentru a rula aceasta etapa (in linie de comanda):
+Creați două componente noi, numite PostList și PostItem. PostList va fi o listă de componente de tip PostItem.
 
-#### 1. `git clone https://github.com/razvancir96/react-curs03.git`
+În componenta PostList, atunci când este afișată pe ecran, faceți un request catre endpoint-ul /posts, de pe JSON placeholder, afișând datele preluate. Practic, o singură dată veți face request către url-ul https://jsonplaceholder.typicode.com/posts.
 
-#### 2. `cd react-curs03`
+Creați două butoane: Afișează useri și Afișează postări. Implicit, vor fi afișați userii.
 
-#### 3. `npm install` (posibil sa dureze)
-
-#### 4. `npm start`
+La click pe oricare din cele două butoane, va fi actualizată lista afișată pe ecran. Dacă dăm click pe butonul Afișează useri va fi afișată lista userilor, dacă dăm click pe Afișează postări va fi afișată lista postărilor.
